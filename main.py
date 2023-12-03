@@ -30,10 +30,10 @@ def predict_hepatitis(data: InputData):
     prediction = logistic_regression_model.predict(input_data)[0]
     
     # Assuming 1 corresponds to hepatitis positive, and 0 corresponds to negative
-    if prediction == 1:
-        result = "Negative"
-    else:
-        result = "Positive"
+    #if prediction == 1:
+        #result = "Negative"
+    #else:
+        #result = "Positive"
     
     return {"prediction": result}
 
